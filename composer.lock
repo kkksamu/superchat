@@ -1,0 +1,113 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c7f4f08a91553a958b4ef9ffdf5c4710",
+    "packages": [
+        {
+            "name": "krypt0nn/colorizer",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KRypt0nn/Colorizer.git",
+                "reference": "dffc32ff691fa7c33b5369eb24539ff703e86535"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KRypt0nn/Colorizer/zipball/dffc32ff691fa7c33b5369eb24539ff703e86535",
+                "reference": "dffc32ff691fa7c33b5369eb24539ff703e86535",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "colorizer.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Podvirnyy",
+                    "email": "suimin.tu.mu.ga.mi@gmail.com",
+                    "homepage": "https://github.com/KRypt0nn",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP library to work with CLI color codes",
+            "homepage": "https://github.com/KRypt0nn/Colorizer",
+            "keywords": [
+                "cli",
+                "console"
+            ],
+            "support": {
+                "issues": "https://github.com/KRypt0nn/Colorizer/issues",
+                "source": "https://github.com/KRypt0nn/Colorizer/tree/0.1.1"
+            },
+            "time": "2021-06-01T13:26:27+00:00"
+        },
+        {
+            "name": "krypt0nn/sockets",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KRypt0nn/sockets.git",
+                "reference": "13d523bc7a4995896beec302105d6e80327ca696"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KRypt0nn/sockets/zipball/13d523bc7a4995896beec302105d6e80327ca696",
+                "reference": "13d523bc7a4995896beec302105d6e80327ca696",
+                "shasum": ""
+            },
+            "require": {
+                "ext-sockets": "*",
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sockets\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Podvirnyy",
+                    "email": "suimin.tu.mu.ga.mi@gmail.com",
+                    "homepage": "https://github.com/KRypt0nn",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple sockets implementation library on PHP",
+            "homepage": "https://github.com/KRypt0nn/sockets",
+            "keywords": [
+                "sockets"
+            ],
+            "support": {
+                "issues": "https://github.com/KRypt0nn/sockets/issues",
+                "source": "https://github.com/KRypt0nn/sockets/tree/0.1.0"
+            },
+            "time": "2020-12-21T13:45:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

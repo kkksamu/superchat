@@ -1,0 +1,6 @@
+{
+    "require": {
+        "krypt0nn/sockets": "^0.1.0",
+        "krypt0nn/colorizer": "^0.1.1"
+    }
+}
